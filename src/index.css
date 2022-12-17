@@ -1,8 +1,830 @@
-body {
-  background-color: lightslategray;
+/* font-family: 'Arima', cursive; */
+/* font-family: 'Averia Serif Libre', cursive; */
+/* font-family: 'Laila', sans-serif; */
+/* font-family: 'Proza Libre', sans-serif; */
+/* font-family: 'Sansita', sans-serif;  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.testClass {
+h1 {
+  position: absolute;
+	top: -10000px;
+}
+
+body { 
+  background-color: #121212;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin: 0 0 0 auto;
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin: 0 1rem;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #5270c2;
+}
+
+.drop-down-container {
+  position: relative;
+}
+
+/* productions navbar button */
+.productions-nav {
+  margin: 0 1.5rem;
+  padding: 1rem 1.2rem;
+  display: flex;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-style: none;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 500;
+  color: #e7e7e7;
+  background-color: transparent;
+}
+
+.caret-down-icon {
+  position:relative;
+  top: 0.2rem;
+}
+
+/* productions dropdown menu when open */
+.productions-menu.open {
+  display: block;
+  position: absolute;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #010101cc;
+}
+
+/* productions dropdown menu when closed */
+.productions-menu.closed {
+  display: none;
+}
+
+/* each production in menu */
+.productions-link {
+  margin: 0.4rem 0.5rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.mobile-menu-btn {
+  display: none;
+}
+
+/* nav breakpoints */
+@media screen and (max-width: 1024px) {
+  nav {
+    margin: 0 auto;
+  }
+
+  .link {
+    margin: 0 0.8rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .productions-nav {
+    margin: 0 1rem;
+    padding: 1rem 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    margin: 0 0 0 auto;
+  }
+
+  .navbar {
+    width: 100%;
+    
+  }
+
+  .nav-name {
+    font-size: 1.35rem;
+  }
+
+  .nav-title {
+    font-size: 1.2rem;
+  }
+
+  .mobile-menu-btn {
+    padding: 0.5rem;
+    display: block;
+    border-style: none;
+    background-color: #01010100;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  body.nav-links-mobile #nav-links {
+    padding: 3rem 0 1rem 0;
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    background-color: #080808;
+  }
+
+  .productions-menu.open {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: #080808;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left-nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* italic style span in any element */
+.italic {
+  font-style: italic;
+}
+
+/* landing section */
+.landing-section {
+  background-color: #010101fa;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-img-relative {
+  padding-top: 4rem;
+  position: relative;
+}
+
+.landing-img {
+  width: 75vw;
+  object-fit: cover;
+}
+
+.landing-text {
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  z-index: 1;
+  text-align: center;
+}
+
+.caio-name {
+  color: #5270c2;
   font-size: 5rem;
-  color: rgb(255, 183, 239);
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 600;
+}
+
+.caio-title {
+  color: #e7e7e7;
+  font-size: 2.8rem;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 400;
+}
+
+.gradient-bottom {
+  position: absolute;
+  width: 100%;
+  height: 15rem;
+  bottom: 0;
+  background-image: linear-gradient(to top, #010101, #010101fa, #010101ef, #01010100)
+}
+
+/* landing breakpoints */
+@media screen and (max-width: 1500px) {
+  .landing-img {
+    width: 85vw;
+  }
+
+  .landing-text {
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .caio-name {
+    font-size: 4.2rem;
+  }
+
+  .caio-title {
+    font-size: 2.5rem;
+  }
+
+  .gradient-bottom {
+    height: 13rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .landing-img {
+    width: 90vw;
+  }
+
+  .landing-text {
+    bottom: 3rem;
+    left: 3rem;
+  }
+
+  .caio-name {
+    font-size: 3.8rem;
+  }
+
+  .caio-title {
+    font-size: 2.2rem;
+  }
+
+  .gradient-bottom {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .landing-img {
+    width: 100vw;
+  }
+
+  .landing-text {
+    bottom: 2.5rem;
+    left: 2.5rem;
+  }
+
+  .caio-name {
+    font-size: 3.7rem;
+  }
+
+  .caio-title {
+    font-size: 2.2rem;
+  }
+
+  .gradient-bottom {
+    height: 11rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-img-relative {
+    padding-top: 4.5rem;
+  }
+
+  .landing-text {
+    bottom: 1rem;
+    left: 2rem;
+  }
+
+  .caio-name {
+    font-size: 3.3rem;
+  }
+
+  .caio-title {
+    font-size: 1.9rem;
+  }
+
+  .gradient-bottom {
+    height: 10rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .landing-img-relative {
+    padding-top: 4rem;
+  }
+
+  .caio-name {
+    font-size: 3rem;
+  }
+
+  .caio-title {
+    font-size: 1.5rem;
+  }
+
+  .gradient-bottom {
+    height: 7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .landing-img-relative {
+    padding-top: 3.8rem;
+  }
+
+  .landing-text {
+    bottom: 0.8rem;
+    left: 0.8rem;
+  }
+
+  .caio-name {
+    font-size: 2.7rem;
+  }
+
+  .caio-title {
+    font-size: 1.4rem;
+  }
+
+}
+
+/* bio section */
+.bio-section {
+  background-color: #191919;
+}
+
+.bio-container {
+  margin: 0 auto;
+  padding: 7.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80rem;
+}
+
+.bio-text-wrapper {
+  padding: 0 2.1rem;
+}
+
+.bio-about-me {
+  margin: 0 0 1rem 0;
+  font-size: 3.75rem;
+  color: #5270c2;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.bio-img {
+  padding: 0 2rem;
+  object-fit: cover;
+  max-width: 40vw;
+}
+
+.bio-text {
+  margin: 0 auto;
+  font-family: 'Arima', cursive;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+  color: #c6c9d8bf;
+  max-width: 40vw;
+}
+
+/* bio breakpoints */
+@media screen and (max-width: 1500px) {
+  .bio-about-me {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .bio-img {
+    max-width: 45vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bio-container {
+    flex-direction: column;
+    max-width: 90rem;
+  }
+
+  .bio-text-wrapper {
+    padding: 2.5rem 0 0 0;
+  }
+
+  .bio-about-me {
+    margin: 0 0 1rem 0;
+  }
+
+  .bio-img {
+    max-width: 70vw;
+  }
+
+  .bio-text {
+    max-width: 57vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bio-img {
+    max-width: 78vw;
+  }
+
+  .bio-text {
+    max-width: 66vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bio-container {
+    padding: 5rem 0;
+  }
+
+  .bio-about-me {
+    font-size: 3.3rem;
+  }
+
+  .bio-img {
+    max-width: 95vw;
+  }
+  
+  .bio-text {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bio-container {
+    padding: 3.75rem 0;
+  }
+
+  .bio-text-wrapper {
+    padding: 1.7rem 0 0 0;
+  }
+
+  .bio-about-me {
+    font-size: 2.6rem;
+  }
+
+  .bio-img {
+    padding: 0;
+    max-width: 85vw;
+  }
+
+  .bio-text {
+    max-width: 85vw;
+  }
+}
+
+/* productions sections */
+.august-section {
+  background-color: #101010;
+}
+
+.letters-section {
+  background-color: #191919;
+}
+
+.ballad-section {
+  background-color: #101010;
+}
+
+.branded-section {
+  background-color: #191919;
+}
+
+.realm-section {
+  background-color: #101010;
+  width: 100%;
+}
+
+.production-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.production-title {
+  margin: 0 0 1rem 0;
+  padding: 7.5rem 0 0 0;
+  font-size: 3.5rem;
+  color: #5270c2;
+  font-family: 'Averia Serif Libre', cursive;
+  text-align: center;
+}
+
+.production-wrapper{
+  margin: 0 auto;
+  padding: 0 0 7.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.production-img {
+  padding: 1rem;
+  width: 50rem;
+  height: 35rem;
+  object-fit: cover;
+}
+
+.production-chapter {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-size: 3rem;
+  color: #5270c2;
+  font-family: 'Averia Serif Libre', cursive;
+  text-align: center;
+}
+
+.production-description-container {
+  margin: 0 1rem;
+  max-width: 45rem;
+}
+
+.production-description-text {
+  margin: 0 auto;
+  padding: 1rem 0 0 0;
+  font-family: 'Arima', cursive;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  color: #c6c9d8bf;
+  max-width: 40vw;
+}
+
+.production-review {
+  padding: 4rem 0 0 0;
+  font-family: 'Sansita', sans-serif; 
+  font-size: 2.2rem;
+  color: rgb(231, 231, 231);
+}
+
+.production-selected {
+  padding: 4rem 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-family: 'Proza Libre', sans-serif;
+  color: rgb(231, 231, 231);
+}
+
+.production-selected-img {
+  padding: 0.3rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  object-fit: cover;
+}
+
+/* productions breakpoints */
+@media screen and (max-width: 1200px) {
+  .production-description-text {
+    max-width: 55vw;;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .production-img {
+    width: 45rem;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .production-title {
+    padding: 5rem 0 0 0;
+    font-size: 3.3rem;
+  }
+  
+  .production-wrapper{
+    padding: 0 0 5rem 0;
+  }
+
+  .production-description-text {
+    max-width: 75vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .production-title {
+    padding: 3.75rem 1rem 0 1rem;
+    font-size: 2.6rem;
+  }
+
+  .production-chapter {
+    font-size: 2.3rem;
+  }
+  
+  .production-wrapper{
+    padding: 0 0 3.75rem 0;
+  }
+
+  .production-img {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .production-review {
+    font-size: 2rem;
+  }
+
+  .production-description-text {
+    max-width: 85vw;
+    font-size: 1.35rem;
+    line-height: 1.4rem;
+  }
+
+  .production-selected-img {
+    padding: 0.3rem;
+    height: 4.2rem;
+    width: 4.2rem;
+    object-fit: cover;
+  }
+}
+
+/* installation section */
+.installation-section {
+  background-color: #191919;
+}
+
+.installation-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.installation-title {
+  margin: 0 0 1rem 0;
+  padding: 7.5rem 0 0 0;
+  font-size: 3.5rem;
+  color: #5270c2;
+  font-family: 'Averia Serif Libre', cursive;
+  text-align: center;
+}
+
+
+.installation-wrapper{
+  margin: 0 auto;
+  padding: 0 0 7.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.installation-img {
+  padding: 1rem;
+  width: 50rem;
+  height: 35rem;
+  object-fit: cover;
+}
+
+.installation-description-container {
+  margin: 0 1rem;
+  max-width: 60rem;
+}
+
+.installation-description-text {
+  margin: 0 auto;
+  padding: 1rem 0 0 0;
+  font-family: 'Arima', cursive;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  color: #c6c9d8bf;
+  max-width: 50vw;
+}
+
+.installation-review {
+  padding: 4rem 0 0 0;
+  font-family: 'Sansita', sans-serif; 
+  font-size: 2.2rem;
+  color: rgb(231, 231, 231);
+}
+
+.installation-selected {
+  padding: 4rem 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-family: 'Proza Libre', sans-serif;
+  color: rgb(231, 231, 231);
+}
+
+.installation-selected-img {
+  padding: 0.3rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  object-fit: cover;
+}
+
+/* installations breakpoints */
+@media screen and (max-width: 1200px) {
+  .installation-description-text {
+    max-width: 70vw;;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .installation-description-text {
+    /* max-width: 70vw; */
+  }
+  
+  .installation-img {
+    width: 45rem;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .installation-title {
+    padding: 5rem 0 0 0;
+    font-size: 3.3rem;
+  }
+  
+  .installation-wrapper{
+    padding: 0 0 5rem 0;
+  }
+
+  .installation-description-text {
+    max-width: 75vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .installation-title {
+    padding: 3.75rem 1rem 0 1rem;
+    font-size: 2.6rem;
+  }
+  
+  .installation-wrapper{
+    padding: 0 0 3.75rem 0;
+  }
+
+  .installation-img {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .installation-review {
+    font-size: 2rem;
+  }
+
+  .installation-description-text {
+    max-width: 85vw;
+    font-size: 1.35rem;
+    line-height: 1.4rem;
+  }
+
+  .installation-selected-img {
+    padding: 0.3rem;
+    height: 4.2rem;
+    width: 4.2rem;
+    object-fit: cover;
+  }  
+}
+
+/* scroll to top button */
+.scroll-btn-no-display {
+  padding: 0;
+  background-color: transparent;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 4rem;
+  width: 4rem;
+  background-color: #5270c2;;
+  border: solid black 0.2rem;
+  border-radius: 50%;
+}
+
+/* scroll to top button */
+.scroll-top-btn:hover {
+  cursor: pointer;
+  background-color: black;
+  border: solid #5270c2 0.2rem;
+  border-radius: 50%;
+  color: #5270c2;
 }
