@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.92a0a7a7.css",
-    "main.js": "/static/js/main.d147f0e5.js",
+    "main.css": "/static/css/main.ca497ac9.css",
+    "main.js": "/static/js/main.93b817f5.js",
     "static/js/787.8eb3d284.chunk.js": "/static/js/787.8eb3d284.chunk.js",
+    "static/media/letters.jpeg": "/static/media/letters.7580ec3a9b26286fea17.jpeg",
+    "static/media/august.jpeg": "/static/media/august.b926a0b1f79d96e586bd.jpeg",
+    "static/media/installation.jpeg": "/static/media/installation.20fb3d5abaa82171e01f.jpeg",
+    "static/media/guilty.png": "/static/media/guilty.c90f9330eb08db199546.png",
+    "static/media/wake.png": "/static/media/wake.879992bcc9d0a33957f8.png",
+    "static/media/carrier.png": "/static/media/carrier.1e78eeed4b501812bf75.png",
+    "static/media/branded.jpeg": "/static/media/branded.9cae2d8854d7ce49f4c2.jpeg",
+    "static/media/when.png": "/static/media/when.de7883af2e61174cadfe.png",
+    "static/media/ballad.jpeg": "/static/media/ballad.fa05f30194f3e6a2e409.jpeg",
+    "static/media/landing.jpg": "/static/media/landing.e8e7119622b5ab6248f7.jpg",
+    "static/media/Sao-Paulo-Internation-Film-Festival.png": "/static/media/Sao-Paulo-Internation-Film-Festival.e3ecc54e7e3ff03791ad.png",
+    "static/media/landing-mobile.jpg": "/static/media/landing-mobile.519804a4abdde0cc1220.jpg",
+    "static/media/caio-bio.jpg": "/static/media/caio-bio.d92665ee119903743c17.jpg",
+    "static/media/Breckenridge-Film-Festival.png": "/static/media/Breckenridge-Film-Festival.fe686800f5b9a60cecb5.png",
+    "static/media/Williamsburg-Film-Festival.png": "/static/media/Williamsburg-Film-Festival.2ef43792fe6d0dd5a8f7.png",
+    "static/media/Brussels-Short-Film-Festival.png": "/static/media/Brussels-Short-Film-Festival.2620ff2de35613a81244.png",
+    "static/media/Moscow-International-Film-Festival.png": "/static/media/Moscow-International-Film-Festival.ba68212a90dd788e068b.png",
+    "static/media/LA-Independent-Film-Festival.png": "/static/media/LA-Independent-Film-Festival.cb328a8b5991829ad793.png",
+    "static/media/Brooklyn-International-Film-Festival.png": "/static/media/Brooklyn-International-Film-Festival.a7af780f5fc3213f8775.png",
+    "static/media/Milan-International-Film-Festival.png": "/static/media/Milan-International-Film-Festival.cddee8ff08478044f6d8.png",
     "index.html": "/index.html",
-    "main.92a0a7a7.css.map": "/static/css/main.92a0a7a7.css.map",
-    "main.d147f0e5.js.map": "/static/js/main.d147f0e5.js.map",
+    "main.ca497ac9.css.map": "/static/css/main.ca497ac9.css.map",
+    "main.93b817f5.js.map": "/static/js/main.93b817f5.js.map",
     "787.8eb3d284.chunk.js.map": "/static/js/787.8eb3d284.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92a0a7a7.css",
-    "static/js/main.d147f0e5.js"
+    "static/css/main.ca497ac9.css",
+    "static/js/main.93b817f5.js"
   ]
 }
