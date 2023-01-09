@@ -109,6 +109,7 @@ a:hover {
 .productions-link {
   margin: 0.4rem 0.5rem;
   padding: 0.5rem 0.75rem;
+  font-family: 'Averia Serif Libre', cursive;
   cursor: pointer;
 }
 
