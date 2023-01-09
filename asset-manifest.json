@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d5d60ce.css",
+    "main.css": "/static/css/main.99cd8e40.css",
     "main.js": "/static/js/main.265c80dc.js",
     "static/js/787.8eb3d284.chunk.js": "/static/js/787.8eb3d284.chunk.js",
     "static/media/letters.jpeg": "/static/media/letters.7580ec3a9b26286fea17.jpeg",
@@ -25,12 +25,12 @@
     "static/media/Brooklyn-International-Film-Festival.png": "/static/media/Brooklyn-International-Film-Festival.a7af780f5fc3213f8775.png",
     "static/media/Milan-International-Film-Festival.png": "/static/media/Milan-International-Film-Festival.cddee8ff08478044f6d8.png",
     "index.html": "/index.html",
-    "main.0d5d60ce.css.map": "/static/css/main.0d5d60ce.css.map",
+    "main.99cd8e40.css.map": "/static/css/main.99cd8e40.css.map",
     "main.265c80dc.js.map": "/static/js/main.265c80dc.js.map",
     "787.8eb3d284.chunk.js.map": "/static/js/787.8eb3d284.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d5d60ce.css",
+    "static/css/main.99cd8e40.css",
     "static/js/main.265c80dc.js"
   ]
 }
