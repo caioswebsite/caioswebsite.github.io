@@ -13,7 +13,7 @@ const Installation = () => {
           Borges Virtualis is a <span className='italic'>VR installation</span>, that immerses the <span className='italic'>player</span> into the role of a detective in search of the missing actor/director of a 1978 film adaptation of Borges’ <span className='italic'>The Intruder</span>*. The player journeys from clue to clue of the director disappearance, within the context of Argentina’s “Dirty War”, when 30.000 people went missing in the hands of the reigning dictatorship. The journey ends when the player finds oneself in a contemporary jail cell, under the plight of a victim of police brutality.
           <br />
           <br />
-          (*) The story of an 1860s peasant woman sexually enslaved by two gaucho brothers, who eventually murder her for failing to sha
+          (*) The story of a 1800s peasant woman, who is enslaved by two brothers who fight over her possession, only to end up being murdered by them.
           </p>
           <a href='https://futureperfect.studio/projects/borges-virtualis' target="_blank" rel="noreferrer">
             <p className='view-installation-here'>Click here to view <span className='italic'>Borges Virtualis</span> project site</p>
