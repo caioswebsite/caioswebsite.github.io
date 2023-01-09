@@ -10,6 +10,8 @@
   padding: 0;
 }
 
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 h1 {
   position: absolute;
 	top: -10000px;
@@ -685,7 +687,6 @@ a:hover {
   text-align: center;
 }
 
-
 .installation-wrapper{
   margin: 0 auto;
   padding: 0 0 7.5rem 0;
@@ -714,6 +715,19 @@ a:hover {
   line-height: 1.4rem;
   color: #c6c9d8bf;
   max-width: 50vw;
+}
+
+.view-installation-here {
+  margin: 0.5rem 0;
+  padding: 1.3rem 0;
+  font-size: 2.8rem;
+  color: #5270c2;
+  font-family: 'Averia Serif Libre', cursive;
+  text-align: center;
+}
+
+.view-installation-here:hover {
+  color: white;
 }
 
 .installation-review {
@@ -768,6 +782,11 @@ a:hover {
   .installation-description-text {
     max-width: 75vw;
   }
+
+  .view-installation-here {
+    font-size: 2.5rem;
+  }
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -801,6 +820,10 @@ a:hover {
     width: 4.2rem;
     object-fit: cover;
   }  
+
+  .view-installation-here {
+    font-size: 2.2rem;
+  }
 }
 
 /* scroll to top button */

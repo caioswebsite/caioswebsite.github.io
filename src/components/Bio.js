@@ -17,7 +17,13 @@ const Bio = () => {
               Caio's first feature film, <span className='italic'>Sometime in August</span>, was named an official selection at the Los Angeles Independent Film Festival, the Florida Independent Film Festival, and nominated for Best American Independent Film of 1999.
               <br />
               <br />
-              From 1999 to 2004, Caio wrote and served as director of photography for two World War II films, <span className='italic'>Last Letters from Monte Rosa</span> and <span className='italic'>The Fallen</span>. Both films were winners of multiple awards and distributed internationally. In 2007, Caio started working on <span className='italic'>The Realm</span>, a series that pays homage to <span className='italic'>The Twilight Zone</span>.
+              From 1999 to 2004, Caio wrote and served as director of photography for two World War II films, <span className='italic'>Last Letters from Monte Rosa</span> and <span className='italic'>The Fallen</span>. Both films were winners of multiple awards and distributed internationally. Always a fan of <span className='italic'>The Twilight Zone</span>, Ribeiro filmed <span className='italic'>The Realm</span> from 2007 to 2012, a sci-fi tetralogy about characters who, due to extreme trauma, enter a dimension where past and present become one, where reality and fantasy collide, and where people suffer from the wounds they inflict on others.
+              <br />
+              <br />
+              In 2021, Caio completed the seven year long shoot of <span className='italic'>Branded By Fire</span>, about his traumatic childhood juxtaposed with the stories of enslaved political prisoners of the Argentinian dictatorship (1976-83).
+              <br />
+              <br />
+              Caio is currently developing <span className='italic'>Borges Virtualis</span>, a <span className='italic'>VR installation</span> that immerses the <span className='italic'>player</span> into a film adaptation of Borges’ <span className='italic'>The Intruder</span>, and the historical reality surrounding the shoot.
           </p>
         </div>
     </div>

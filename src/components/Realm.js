@@ -31,7 +31,7 @@ const Realm = () => {
           <div className='production-description-container'>
             <p className='production-chapter'>Chapter 2: Guilty as Charged</p>
             <p className='production-description-text'>
-            In the emergency room of a hospital, the victim of a hit and run lies dying while reconstructing the events that led to his demise through the memories of his nemesis, who lies mortally wounded by his side.
+            A hit man lies dying in a emergency room, while reconstructing the events of his demise through the memories of his nemesis, who lies mortally wounded by his side.
             </p>
           </div>
         </div>
