@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca497ac9.css",
-    "main.js": "/static/js/main.93b817f5.js",
+    "main.css": "/static/css/main.0d5d60ce.css",
+    "main.js": "/static/js/main.265c80dc.js",
     "static/js/787.8eb3d284.chunk.js": "/static/js/787.8eb3d284.chunk.js",
     "static/media/letters.jpeg": "/static/media/letters.7580ec3a9b26286fea17.jpeg",
     "static/media/august.jpeg": "/static/media/august.b926a0b1f79d96e586bd.jpeg",
@@ -14,6 +14,7 @@
     "static/media/ballad.jpeg": "/static/media/ballad.fa05f30194f3e6a2e409.jpeg",
     "static/media/landing.jpg": "/static/media/landing.e8e7119622b5ab6248f7.jpg",
     "static/media/Sao-Paulo-Internation-Film-Festival.png": "/static/media/Sao-Paulo-Internation-Film-Festival.e3ecc54e7e3ff03791ad.png",
+    "static/media/site-pic.jpg": "/static/media/site-pic.e52667a64932ba7894fb.jpg",
     "static/media/landing-mobile.jpg": "/static/media/landing-mobile.519804a4abdde0cc1220.jpg",
     "static/media/caio-bio.jpg": "/static/media/caio-bio.d92665ee119903743c17.jpg",
     "static/media/Breckenridge-Film-Festival.png": "/static/media/Breckenridge-Film-Festival.fe686800f5b9a60cecb5.png",
@@ -24,12 +25,12 @@
     "static/media/Brooklyn-International-Film-Festival.png": "/static/media/Brooklyn-International-Film-Festival.a7af780f5fc3213f8775.png",
     "static/media/Milan-International-Film-Festival.png": "/static/media/Milan-International-Film-Festival.cddee8ff08478044f6d8.png",
     "index.html": "/index.html",
-    "main.ca497ac9.css.map": "/static/css/main.ca497ac9.css.map",
-    "main.93b817f5.js.map": "/static/js/main.93b817f5.js.map",
+    "main.0d5d60ce.css.map": "/static/css/main.0d5d60ce.css.map",
+    "main.265c80dc.js.map": "/static/js/main.265c80dc.js.map",
     "787.8eb3d284.chunk.js.map": "/static/js/787.8eb3d284.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca497ac9.css",
-    "static/js/main.93b817f5.js"
+    "static/css/main.0d5d60ce.css",
+    "static/js/main.265c80dc.js"
   ]
 }
