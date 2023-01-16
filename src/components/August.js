@@ -12,7 +12,7 @@ const August = () => {
       <h2 className='production-title'>Sometime in August</h2>
       <div className='production-container'>
         <div className='production-wrapper'>
-          <a href='https://vimeo.com/manage/videos/36978544' target="_blank" rel="noreferrer">
+          <a href='https://vimeo.com/manage/videos/762780254' target="_blank" rel="noreferrer">
             <img className='production-img' src={august} alt='movie still from Sometime in August production, showing a man and woman leaning against one another, with their backs against the wall; links to video on vimeo.com' />
           </a>
           <div className='production-description-container'>
